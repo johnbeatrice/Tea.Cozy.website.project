@@ -1,0 +1,170 @@
+
+/*----------------------------------//
+//------------ BASIC SPECS-------------//
+//--------------------------------*/
+
+
+html {
+    background-color: rgb(7, 7, 7);
+    box-sizing: border-box;
+    color:#fff;
+    opacity: 0.9;
+    font-size: 22px;
+    font-family: Helvetica;
+}
+
+
+/*----------------------------------//
+//------------ NAV BAR-------------//
+//--------------------------------*/
+
+.nav-box {
+    width: 100%;
+    height: 69px;
+    border-bottom: solid #fff 1px;
+}
+
+.nav-box a {
+    color: #fff;
+    display: inline-block;
+    float: right;
+    margin-top: 14px;
+    margin-right: 10px;
+    font-size: 25px;
+
+} 
+
+.nav-box img {
+    margin-left: 10px;
+    height: 50px;
+    width: auto;
+    margin-top: 5px;
+}
+
+
+/*----------------------------------//
+//------------ Landing-IMAGE-------------//
+//--------------------------------*/
+
+.landing-box {
+    position: relative;
+}
+
+.landing-box img {
+    height: 700px;
+    width: auto;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    
+}
+
+.mission-box {
+    position: absolute;
+    top: 300px;
+    color: #fff;
+    background-color: rgb(7, 7, 7);
+    height 100px;
+    width: 100%;
+    text-align: center;
+    
+}
+
+/*----------------------------------//
+//------------ MIDDLE CONTENT-------------//
+//--------------------------------*/
+
+
+
+.midContent-box {
+    height: 700px;
+    width: 1000px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    margin-right:auto;
+    margin-left: auto;
+    text-align: center;
+}
+
+.img-box img {
+    height: 200px;
+    width: 300px;
+    margin-bottom: -15px;
+}
+
+.img-box {
+    display: inline-block;
+    margin: 0 8px;
+}
+
+
+/*----------------------------------//
+//------------ LOCATIONS SECTION-------------//
+//--------------------------------*/
+
+.locations-box {
+    position: relative;
+    width: 1200px;
+    margin-right: auto;
+    margin-left: auto
+}
+
+.locations-box img {
+    height: 500px;
+    width: 1200px;
+}
+
+.title-box {
+    position:absolute;
+    top: 28px;
+    left: 510px;
+    font-size: 130%;
+}
+
+.downtown-box {
+    position: absolute;
+    top: 150px;
+    left: 100px;
+    background-color: rgb(7, 7, 7);
+    height 200px;
+    width: 300px;
+    text-align: center;
+    
+}
+
+.eastBayside-box {
+    position: absolute;
+    top: 150px;
+    left: 450px;
+    background-color: rgb(7, 7, 7);
+    height 200px;
+    width: 300px;
+    text-align: center;
+}
+
+.oakdale-box {
+    position: absolute;
+    top: 150px;
+    right: 100px;
+    background-color: rgb(7, 7, 7);
+    height 200px;
+    width: 300px;
+    text-align: center;
+}
+
+/*----------------------------------//
+//------------ FOOTER SECTION-------------//
+//--------------------------------*/
+
+.contact-box {
+    height: 150px;
+    text-align: center;
+    margin-top: -25px;
+}
+
+.copyright-box {
+    display: inline-block;
+    float: left;
+    margin-left: 20px;
+    margin-top: 0;
+}
